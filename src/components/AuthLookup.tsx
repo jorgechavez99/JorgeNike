@@ -1,7 +1,7 @@
 import { ChangeEvent, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Button from './Button'
-import { supabase } from '../db/db'
+// import { supabase } from '../db/db'
 import { isUserRegistered } from '../api/auth'
 import Spinner from './Spinner'
 
@@ -12,7 +12,7 @@ type AuthLookupProps = {
 }
 
 export default function AuthLookup({
-  handleNextStep,
+  // handleNextStep,
   handleChangeEmail,
   email,
 }: AuthLookupProps) {
